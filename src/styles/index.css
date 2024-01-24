@@ -51,28 +51,37 @@ h1{
   top: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .app .search{
   text-align: center;
   padding: 1rem;
+ 
 }
 
 .app input{
   padding: .7rem 1.5rem;
   font-size: 1.2rem;
   border-radius: 25px;
+  width: 95%;
+  max-width: 660px;
+  color: #fafafa;
   border: 1px solid rgb(221, 221, 221);
-  background: rgba(185, 185, 185, 0.313);
+  background: rgba(8, 19, 23,0.3);
 }
 .app .top{
   width: 100%;
   margin: 1rem auto;  
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.15);
+  padding: 30px;
   border-radius: 12px;
-  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.47);
+  border: 1px solid #fafafa;
+
+
+}
+
+.app .top .location::after{
+  
+  border: 1px solid #fafafa;
 
 
 }
@@ -90,7 +99,7 @@ h1{
   text-align: center;
   width: 100%;
   margin: 1rem auto;
-  padding: 1rem;
+  padding: 2rem 1rem ;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.4);  
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.47);
