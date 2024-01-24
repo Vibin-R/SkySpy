@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SkySpy/static/css/main.a4438148.css",
+    "main.js": "/SkySpy/static/js/main.878c5718.js",
+    "static/media/hills.jpg": "/SkySpy/static/media/hills.893fc46144548df32670.jpg",
+    "index.html": "/SkySpy/index.html",
+    "main.a4438148.css.map": "/SkySpy/static/css/main.a4438148.css.map",
+    "main.878c5718.js.map": "/SkySpy/static/js/main.878c5718.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4438148.css",
+    "static/js/main.878c5718.js"
+  ]
+}
