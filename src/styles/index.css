@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+p{
+  font-size: 1.2rem;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.app{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.app:before {
+  content: '';
+  background: url(../assets/hills.jpg) no-repeat center center/cover;
+  background-color: aqua;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container{
+  max-width: 700px;
+  height: 620px;
+  margin: auto;
+  padding: 1rem 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app .search{
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgb(221, 221, 221);
+  background: rgba(185, 185, 185, 0.313);
+}
+.app .top{
+  width: 100%;
+  margin: 1rem auto;  
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.47);
+
+
+}
+
+.app .description{
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform:rotate(269deg);
+}
+
+.app .bottom{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.4);  
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.47);
+}
+
+.bold{
+  font-weight: 700;
+}
